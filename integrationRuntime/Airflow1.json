@@ -1,0 +1,31 @@
+{
+	"name": "Airflow1",
+	"properties": {
+		"type": "Airflow",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "South Central US",
+				"computeSize": "Small",
+				"extraNodes": 0,
+				"enableAutoscale": false
+			},
+			"airflowProperties": {
+				"airflowVersion": "2.6.3",
+				"gitSyncProperties": {
+					"gitServiceType": "Github",
+					"gitCredentialType": "None",
+					"repo": "https://github.com/zachdean/csci622-datafactory.git",
+					"branch": "master"
+				},
+				"airflowEnvironmentVariables": null,
+				"airflowRequirements": [],
+				"enableAADIntegration": true,
+				"userName": null,
+				"password": null,
+				"airflowEntityReferences": [],
+				"encryptedSecrets": [],
+				"secrets": null
+			}
+		}
+	}
+}
