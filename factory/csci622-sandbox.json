@@ -1,0 +1,9 @@
+{
+	"name": "csci622-sandbox",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "246eb9e5-51f9-4f74-9902-8253e3253d3d",
+		"tenantId": "ec37a091-b9a6-47e5-98d0-903d4a419203"
+	}
+}
